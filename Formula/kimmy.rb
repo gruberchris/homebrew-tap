@@ -1,25 +1,25 @@
 class Kimmy < Formula
   desc "Terminal client for KimmyDB"
   homepage "https://github.com/gruberchris/kimmydb"
-  version "0.7.0"
+  version "0.8.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/gruberchris/kimmydb/releases/download/v0.7.0/kimmy-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "9e0a36ce95fd33072e1404e7f06e032e1a032c8161dc1dbc20b150ac30adab88"
+      url "https://github.com/gruberchris/kimmydb/releases/download/v0.8.0/kimmy-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "3808860889ad46a8551a2f6fc8edbfc7664e201ee9d383084a1860a5c44aa94d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gruberchris/kimmydb/releases/download/v0.7.0/kimmy-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "2bcc17181892df62b4a3f26ee51827231f26e8c6c3330b3ed7eb999a72894e15"
+      url "https://github.com/gruberchris/kimmydb/releases/download/v0.8.0/kimmy-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "b721022f557ea42e9a617223d0733c5b27c7dedce5de6e87265c33dbf90bbe2f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/gruberchris/kimmydb/releases/download/v0.7.0/kimmy-cli-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "124e4e9fdf2cac1d8c0133cf2f8c5359ebac536d153fecf644622ddda05521ef"
+      url "https://github.com/gruberchris/kimmydb/releases/download/v0.8.0/kimmy-cli-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "6d9c150078558e59139d4d3543bec044c874713e95430e4f018b808baf20e6f8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/gruberchris/kimmydb/releases/download/v0.7.0/kimmy-cli-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "a1eae6a6106798355d9d3ec5df22df7efa2d428771f48e0b6a959255404192ab"
+      url "https://github.com/gruberchris/kimmydb/releases/download/v0.8.0/kimmy-cli-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "0751f68e698a7a809f7d9d5b833363bb456fd75f20ab150fbd7a3eb04386d9e8"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
